@@ -171,7 +171,7 @@ git clone xxx
 
 npm install
 
-在data对象中填上自己的用户名以及密码，再把第三方的验证码code填入 ？？？ 中，可以用其他验证的方法，只要保证高精确度就可以了
+在data对象中填上自己的用户名以及密码，再把第三方的验证码code填入'Authorization': 'APPCODE ？？？'中，可以用其他验证的方法，只要保证高精确度就可以了
 
 node index.js
 
