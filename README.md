@@ -19,6 +19,11 @@ const browserMsg = {
 ```
 
 ```
+const now = Date.now();
+const client_id = "c3cef7c66a1843f8b3a9e6a1e3160e20";
+const source = "com.zhihu.web";
+const grant_type = 'password';
+
 const shaObj = new jsSHA("SHA-1", "TEXT");
 shaObj.setHMACKey("d1b964811afb40118a12068ff74a12f4", "TEXT");
 shaObj.update(grant_type);
